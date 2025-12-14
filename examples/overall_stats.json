@@ -1,0 +1,8 @@
+{
+  "total_images": 1950,
+  "avg_snr_improvement": 1.03,
+  "avg_psnr": 32.13,
+  "avg_ssim": 0.7968,
+  "avg_enl_improvement": 692885.26,
+  "avg_edge_preservation": 0.4669
+}
