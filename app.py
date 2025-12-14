@@ -616,11 +616,11 @@ if os.path.exists(os.path.join(examples_dir, "metadata.json")):
         
         with col_a:
             if os.path.exists(input_path):
-                st.image(input_path, caption=f"Noisy Input", use_column_width=True)
+                st.image(input_path, caption=f"Noisy Input", width=256)
         
         with col_b:
             if os.path.exists(denoised_path):
-                st.image(denoised_path, caption=f"Denoised Output", use_column_width=True)
+                st.image(denoised_path, caption=f"Denoised Output", width=256)
         
         with col_c:
             st.markdown(f"""
